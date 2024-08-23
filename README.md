@@ -1,131 +1,270 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+### BIOLOGY QUIZ
 
-Welcome Viki Mulhall,
+___
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+### Introduction
+This Biology Quiz is a quick, fun, educational 10 question quiz which tests the user on biology questions.  The user will first be introduced to the quiz and given instructions on how to play.  The will answer question and be given feedback. A final tally will be given at the end and the option to play again. 
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+### Description  - Project Purpose 
+The game is designed to give the user a fun interative method to test their knowledge on biology.  
 
-## Gitpod Reminders
+### User Demographics - Target audience
+The target audience is school children part-taking in the Junior Cert curriculum.  The quiz could be part of methods used by teachers to test the knowlege of their pupils in particular biology topics. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### UX
+**Site Goals**: 
+First Time users will find the site intuitive and easy to navigate.  The site provides the user with what they expect:
+* Instructions of how to play
+* Prompt the player on a clicking an answer 
+* Immediate feedback of whether an answer is correct or not.
+* A tally of the score as they progress
+* Provide a final tally of score.
+* Provide a choice of whether they would like to play again or return to home page. 
 
-`python3 -m http.server`
+The Home page has a clear call to action with features such clear and easy to understand Instructions with a START button to begin.
+Our return customers will recall how easy it is to navigate and to see if they can improve on previous scores. 
 
-A blue button should appear to click: _Make Public_,
+## Design Choices ## %%%%%%%%%%%%
 
-Another blue button should appear to click: _Open Browser_.
+### Color Scheme
+We choose these color schemes as green is a calming color and purple is a healing color.  The colors work well together and provoke a professional yet warm tone which will produce a positive emotional response with the user.  <p>We checked which font color stood out best against these, both getting 5 star ratings.  Graphic illustrated below. <p>
+<img width="1075" alt="Screenshot 2024-07-18 at 13 59 59" src="https://github.com/user-attachments/assets/ad59197b-825e-4d49-b757-1619be30829c">
+<img width="1148" alt="Screenshot 2024-07-18 at 14 05 49" src="https://github.com/user-attachments/assets/3fcdba6a-9926-4750-bdd6-54e232462a2d">
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+### Typography
+We used the font Montserrat which use a Sans Serif which is good for accessibility and is a dyslexia friendly font. 
+We feel it looks professional and is clear and easy to read. 
 
-A blue button should appear to click: _Make Public_,
+### Imagery 
+We have professional head shots taken of each of our healthcare workers within the medical workspace using similar backgrounds, style and size. All the images show a professional healthcare worker. The HOME page image shows a friendly smiling face, creating an emotional response to make the user more at ease, encouraging them to contact us. 
+All images contain 'alt' text so that it can be more accessible for screen readers and search engines.
 
-Another blue button should appear to click: _Open Browser_.
+### Wireframes
+We created a wireframe using Balsamiq to plan out the structure and style of the website. We spoke with the users to gain their insight and views.  This was created for  displaying the site on mobiles and larger screens such as tablets and desktops. This was the beginning of our design journey, as we progressed with the design we made some changes to the actual website. During this planning phase we researched the fonts and background colors and text colors that would be most suitable and gained user feedback.  
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+**Picture below of example of WIREFRAMES**
 
-To log into the Heroku toolbelt CLI:
+### Home Page
+<img width="766" alt="Screenshot 2024-07-26 at 21 13 32" src="https://github.com/user-attachments/assets/e9e3a812-fcbf-43d7-955b-3855a474b5a3">
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Meet the Team Page
+<img width="761" alt="Screenshot 2024-07-30 at 12 53 41" src="https://github.com/user-attachments/assets/6b7dddf9-b597-454c-adf2-1071d5e253d2">
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+### Call Back Request
+<img width="689" alt="Screenshot 2024-07-30 at 12 53 58" src="https://github.com/user-attachments/assets/0ad70b93-f19e-4900-9000-a68e6b712639">
 
-### Connecting your Mongo database
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+## FEATURES
 
-------
+> ## HOME PAGE
+> 
+The HOME page contains a clear information section on what we offer and how to contact us. 
+___
 
-## Release History
+<img width="1421" alt="Screenshot 2024-07-30 at 12 14 10" src="https://github.com/user-attachments/assets/6e1df62d-7751-4e38-a6be-e8d4ba4f55ea">
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Navigation Bar
+Our navigation bar on the top, which shows a menu 'burger' icon on mobile and expands to detail on larger devices. Our navigation menu clearly shows which page the user is on as it is underlined. 
+___
 
-**June 18, 2024,** Add Mongo back into template
+The hero image is of a friendly, happy faced healthcare worker which sets up the friendly tone and familiarity that Dungarvan Health Clinic wish to portray. 
+We clearly list the healthcare services provided. 
+Our call to action feature on this Home page is the phone number, we want people to contact us.  The phone number is visible, on larger screens it enlarges when the mouse hovers over it and if clicked will begin a call. 
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+____
 
-**May 28 2024:** Fix Mongo and Links installs
 
-**April 26 2024:** Update node version to 16
+## Footer
+Our Footer bar offers easy access to the location details of our health clinic with Eircode and active links to our Facebook and Instagram pages, which open in separate tabs. 
 
-**September 20 2023:** Update Python version to 3.9.17.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+> ## MEET THE TEAM
+>
+Shows our healthcare workers, qualifications and spoken languages on nice feature cards which stack when viewing on mobile, making it look professional while giving the user their first introduction to their doctor or health professional which will help to make them more comfortable at their first appointment. 
+Navigation bar also displayed on top with easy access to the other pages. 
+Footer bar remains the same with the location details and social media links.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+**Picture below of out Meet the Team page**
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<img width="1420" alt="Screenshot 2024-07-30 at 12 14 35" src="https://github.com/user-attachments/assets/6201008f-b21c-4794-8918-a96819320b91">
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+> ## CALL BACK REQUEST
+> 
+The user has the benefit of requesting a 'Call Back' with regard to a specific health category.  This is done through an easy to use form. This form once submitted will be sent to the administrative team at the Health Clinic.  The admin team will then call back the patients and offer them the appropriate appointment. 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+**Picture below of example of Call Back Request Form**
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<img width="1435" alt="Screenshot 2024-07-30 at 12 14 51" src="https://github.com/user-attachments/assets/a97c731a-d87a-4b6a-a546-26f10a53b4c0">
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+**The benefit of the 'Call-Back' form is useful for 3 main reasons**:
+1. It allows patients who may be at work, or out of hours, or busy with childcare an opportunity to take action to making the first-step in contacting a health professional.
+2. It allows for the Health practice itself to manage the appointments in a more efficient manner as it sees the category the patient is interested in and allows them to 'Call Back' in quieter clinic times.
+3. It allows the health clinic to gain insightful data of requests and can make future plans such as expanding specific healthcare areas to accommodate increasing needs. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+This form asks for the users first and last name, email and phone number.  It then asks to choose which health care area they wish to get a call back about, they select using a radio button whether it’s the GP, Dietician, Asthma Specialist or Women's Health appointment they are seeking. 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+This feature allows the user to interact with the clinic, even during out of hours and creates an action - they will receive a call back if the form is submitted. When they hover the mouse over the SUBMIT button the text enlarges encouraging them to click and commit. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Navigation and footer bar remains the same on all three pages to offer consistency and good user experience.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Navigation & Interaction Points 
+We have 3 pages on our site - Home - Meet the Team - Call Back Request
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Our three pages will be displayed on our nav bar at the top of each page and can be navigated easily between.  The user will understand which page they are on as there is an underline under the active page.
 
-------
+We will be interacting with the user when they click on the Phone link on the HOME page.  
 
-## FAQ about the uptime script
+![Phone](https://github.com/user-attachments/assets/60c8f188-7b71-4429-b24b-3c24179bbeff)
 
-**Why have you added this script?**
+They will have their first interaction with their healthcare worker when they view them on the 'Meet the Team' page. They can get familiar with which healthcare worker would be the best fit for them.   
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Another great interaction point is our forms section to make a Call Back request - creating an action to making that first step to initiating an appointment, the following screen is displayed to the user once they click on the SUBMIT button offering positive feedback and confirming the Health Clinic will be in touch. 
 
-**How will this affect me?**
+<img width="1436" alt="Screenshot 2024-07-31 at 12 54 47" src="https://github.com/user-attachments/assets/f0bfd9d3-917b-4273-b511-22639c3558eb">
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Finally they can interact with our social media sites by clicking on the links which will open in a new page. 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
+## Future Implementation Section 
+This site could be developed in the future with the patients making their own on-line bookings. 
+Payments could be made on-line with a history of invoices paid so the user can claim it back on their tax relief rather than having physical pieces of paper stored in random places at home. 
+Patients could access Downloadable patient information sheets. 
+List of available services and doctors could be expanded. 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Accessibility
+Meaningful Alt descriptions on all images making it suitable for screen readers and descriptive for screen reader users. Aria labels used to describe the content for screen readers and other accessibility tools.
+Colors suitable for people who are color blind and sans serif text suitable for people with dyslexia.
+We used coolers to ensure our background and contrast colors worked efficiently and clearly.
+After running our deployed site in incognito mode using Lighthouse we identified that our radio buttons on our form were too small and not spaced apart enough for accessibility.  We fixed this ran Lighthouse again getting excellent accessibility scores in all pages. 
 
-**Can I opt out?**
+## Technologies Used
+HTML and CSS
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Frameworks, Libraries and Programs Used
+* Balsamiq Wireframes - used to create wireframes
+* Git - version control
+* Git Hub - To save and store the files for the website 
+* Google Fonts - to import fonts onto the website
+* Font Awesome for iconography on website 
+* Favicon.io - to create favicon
+* Coolors - checking colour pallets and their contrast abilities with fonts.
+* Berme.net - to reduce image sizes and convert to .webp
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Manual Testing 
+We performed manual testing on the site and also ran our html and css codes through validators. 
 
-**Anything more?**
+## W3C Validator
+* HTML code on all pages passes through the official W3C validator with no issues.
+  
+## HOME Page - 3C Validator Test:
+<img width="1380" alt="Home Page Validator" src="https://github.com/user-attachments/assets/185224bc-9ed0-4478-bd5e-11ac40c23268">
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Meet the Team Page - 3C Validator Test:
+<img width="1388" alt="Meet the Team validator" src="https://github.com/user-attachments/assets/34d27d92-dec7-45db-964e-273b3e1fbfea">
 
----
+## Call Back Request Page - 3C Validator Test:
+<img width="1366" alt="Call Back HTML validator" src="https://github.com/user-attachments/assets/9010e268-d982-4b80-b8ad-1dee100c591c">
 
-Happy coding!
+## CSS (Jigsaw) validator
+* CSS code passes through the official (Jigsaw) validator with no issues
+<img width="1385" alt="Screenshot 2024-07-31 at 14 56 28" src="https://github.com/user-attachments/assets/5bdfb187-3346-4918-9a4f-4d7de634ec33">
+
+
+### Quality Assurance 
+We took a systematic and structural approach to manually test each page to ensure it functions correctly and to help identify potential bugs.
+We created a specific testing template to ensure and re-check all pages were working correctly as specified with expected and actual outcomes using a methodical approach.   
+
+**Test Evaluation Sheet**:
+
+<img width="1195" alt="Screenshot 2024-07-29 at 15 12 40" src="https://github.com/user-attachments/assets/e1cebea5-8a38-42fa-b9d0-993790b15741">
+
+As shown in the evaluation sheet above we navigated around our site and tested all available options to ensure they were working as intended, such as checking if a valid email address is entered and prompting the user if it is not, checking when we click on the Facebook icon, that it does in fact take us to a Facebook page and opens in a new page. 
+
+## Lighthouse Testing
+Incognito lighthouse testing was completed on all pages with excellent results ensuring optimal page loading times:
+## HOME Page - Lighthouse Testing:
+<img width="492" alt="Screenshot 2024-07-31 at 12 40 38" src="https://github.com/user-attachments/assets/eee21020-12ba-40d1-9099-6e4ae37281a1">
+
+## Meet the Team - Lighthouse Testing:
+<img width="506" alt="Screenshot 2024-07-31 at 12 41 07" src="https://github.com/user-attachments/assets/681889e6-41e1-4932-af7d-f6442d8a2e21">
+
+## Call Back Request - Lighthouse Testing:
+<img width="502" alt="Screenshot 2024-07-31 at 12 41 37" src="https://github.com/user-attachments/assets/4c995f1f-5fbb-4b24-a966-2fa26c816b9c">
+
+## Call Back Request - Thank you for getting in touch page - Lighthouse Testing:
+<img width="513" alt="Screenshot 2024-07-31 at 12 42 15" src="https://github.com/user-attachments/assets/a3c7df3d-78bf-477a-9170-2c5ec780f2e1">
+
+
+
+
+
+  ### BUGS
+ 
+ 
+  **Solved Bugs**
+  When running W3C CSS validator - it displayed the following message: 
+  
+    <img width="1291" alt="Screenshot 2024-07-27 at 12 18 40" src="https://github.com/user-attachments/assets/87aed563-5abe-4383-a099-9e2f15e15b68">
+
+ We fixed the spaces in the file name and in the root directory which fixed the errors. 
+ 
+<img width="1354" alt="Screenshot 2024-07-27 at 12 22 17" src="https://github.com/user-attachments/assets/f886b2fd-fba6-4f0b-8799-b3ea3a7cba06">
+
+Our navigation bar was overlapping with our main header, we watched some YouTube videos to understand how to rectify this and found "Prevent Fixed Navbar overlapping" by ByteGrad very helpful. 
+
+On the phone link on the Home page we created code to make the phone number larger on hover, it was working and then on testing was not working.  We fixed this bug as we had subsequently put the phone number in heading 3 style, so then changed the parent in the hover code.
+
+On our Call back page we wanted to click on the SUBMIT button and be redirected to another page to say Thank you for your request, we will be in touch shortly. We were using the method:GET rather than POST and had the incorrect link to re-direct causing a 404 error page to be displayed, the link was updated correctly which rectified the error and is now working.  
+ <img width="467" alt="Error page when form submitted bug" src="https://github.com/user-attachments/assets/4b6d1da3-07fb-4bad-bd42-24ae3e16c6f7">
+
+<img width="1328" alt="Bugs on Call Back Page" src="https://github.com/user-attachments/assets/b95b5523-0de8-4922-8153-cd1180f7a21c">
+The validator identified some bugs on the Call Back Page which we fixed and rectified.  
+
+<img width="1383" alt="Screenshot 2024-07-31 at 14 50 39" src="https://github.com/user-attachments/assets/e32410cc-abdd-458d-9e73-bc4da361540c">
+Teh CSS validator found some bugs on the CSS stle sheet which we fixed and rectified.  
+
+
+### User Experience Assurance
+We want to ensure the end-user has a smooth experience and addressed any potential issues by testing and fixing any bugs on the site.  Testing was on-going throughout the build.   We used Chrome development tools while building to pinpoint and troubleshoot any issues as we progressed. 
+Each page has been inspected using google chrome developer tools and Firefox inspector tool to ensure each page is fully responsive on a variety of different screen sizes and devices. We tested the site on the following devices: apple iPhone 12 mini mobile phone, a  Samsung  Galaxy tablet and MacBook Pro for testing the site on various real time screen sizes. All tests responded and well with no bugs reported.
+
+## Deployment Steps 
+1. The site is Deployed using GitHub Pages 
+2. Login to GitHub
+3. Go to the projects repository (https://github.com/Viki-coding/Dungarvan-Health-Clinic/)
+4. Click on Settings
+5. Select pages in the left navigation bar
+6. From SOURCE dropdown select Deploy from a Branch
+7. Under BRANCH from dropdown select Main Branch and SAVE
+8. The site is now deployed but may take a few minutes to go live.
+9. Return to CODE tab of Github repo and wait a few minutes for build to finish, refresh page.  This will show on github-pages to see active deployments. 
+
+### How to Fork
+1. Login to Github
+2. Go to Project repository
+3. Click the FORK button top right corner
+
+### How to Clone
+1. Log into Github
+2. Go to project repository
+3. click on the code button, select what want to clone HTTPS, SSH or GitHub CLI and copy the link.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory
+5. Copy 'git clone' into the terminal and paste the link you copied in step 3.  Press enter.
+
+### Acknowledging Contributions & Credits
+We followed along the CI instruction videos for the 'Love Running' site and created the basis of our site going through it step by step.  We researched and copied the code for the 'Meet the Team' cards showing our healthcare professionals from W3 schools website. 
+
+We got help with the READ.me by watching the video 'Creating your first README with Kera Cudmore' on CI Chanel Lead Library on YouTube and also the video with Lane-Sawyer Thompson on CI Channel on YouTube.  Thanks to the on-line tutors, Ray, Gemma, Roo and Alan for their expertise and ability to explain some of the 'challenges' we encountered. Thanks our very supportive and positive facilitator Laura Maycock and my Kiwi mentor Dick Vlaanderen.
+Also found the webinar 'Community Q&A: How to Troubleshoot with Lane-Sawyer Thompson' very helpful approach to how to view looking at the site for bugs and methodically identifying issues. 
+
+**CONTENT**
+The content text for Dungarvan Health Clinic is fictious and is written by Viki Mulhall. The icons in the footer were taken from Font Awesome. 
+
+**MEDIA**
+The photos used on the all 3 pages were from Pixabay and are AI generated.
+
+### Legal & Ethical Compliance 
+This project is for educational purposes only.
