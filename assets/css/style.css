@@ -20,8 +20,19 @@ body {
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
-    border-radius: 10%;
+    border-radius: 5%;
     padding: 30px;
-    text-align: left;
     color: white;
+}
+
+.quizbox h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    border-bottom:2px solid #319236
+    padding-bottom: 20px;
+}
+
+.quiz {
+    padding: 20px 0;
 }
