@@ -25,9 +25,9 @@ body {
     color: white;
 }
 
-.quizbox h1{
+.quizbox > h1{
     color: white;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 500;
     border-bottom:2px solid #319236
     padding-bottom: 20px;
@@ -35,4 +35,23 @@ body {
 
 .quiz {
     padding: 20px 0;
+}
+
+.quiz > h2{
+    font-size: 18px;
+    color: #319236;
+    font-weight: 600;
+}
+
+/* Add styling to answer buttons, use fortnite color palette */
+/* Box shadow inspired by W3 schools */ 
+.btn {
+    background: #f3af19;
+    color: black;
+    font-weight: 450;
+    width: 100%;
+    border: 5px solid ##4c51f7;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
