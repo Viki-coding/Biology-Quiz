@@ -1,3 +1,1 @@
 // comments //
-
-console.log(connect);
