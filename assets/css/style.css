@@ -47,7 +47,7 @@ body {
     cursor: pointer;
     background: #f3af19;
     color: black;
-    font-weight: 450;
+    font-weight: 600;
     width: 100%;
     border: 5px solid ##4c51f7;
     padding: 10px;
@@ -61,4 +61,15 @@ body {
 .btn:hover {
     background: #9d4dbb;
     color: white;
+    font-size: larger;
+}
+
+#next.btn {
+    background: #9d4dbb;
+    color: white;
+    width: 200px;
+    border:#f3af19
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 8px;
 }

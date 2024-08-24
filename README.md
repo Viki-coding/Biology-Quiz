@@ -9,7 +9,7 @@ This Biology Quiz is a quick, fun, educational 10 question quiz which tests the 
 The game is designed to give the user a fun interative method to test their knowledge on biology.  
 
 ### User Demographics - Target audience
-The target audience is school children part-taking in the Junior Cert curriculum.  The quiz could be part of methods used by teachers to test the knowlege of their pupils in particular biology topics. 
+The target audience is secondary school children part-taking in the Junior Cert or GCSE curriculum.  The quiz could be part of methods used by teachers to test the knowlege of their pupils in particular biology topics. 
 
 ### UX
 **Site Goals**: 
@@ -27,9 +27,12 @@ Our return customers will recall how easy it is to navigate and to see if they c
 ## Design Choices ## %%%%%%%%%%%%
 
 ### Color Scheme
-We choose these color schemes as green is a calming color and purple is a healing color.  The colors work well together and provoke a professional yet warm tone which will produce a positive emotional response with the user.  <p>We checked which font color stood out best against these, both getting 5 star ratings.  Graphic illustrated below. <p>
-<img width="1075" alt="Screenshot 2024-07-18 at 13 59 59" src="https://github.com/user-attachments/assets/ad59197b-825e-4d49-b757-1619be30829c">
-<img width="1148" alt="Screenshot 2024-07-18 at 14 05 49" src="https://github.com/user-attachments/assets/3fcdba6a-9926-4750-bdd6-54e232462a2d">
+We did some research to investigate the most popular computer games amounst this age group of males and females between the 12-16 age bracket.  Fortnite was one of the most popular amoungst both sexes.  We decided to use the Fortnite color scheme.  We hope that this will invoke a sense of a challenge, a sense of belonging, a sense of fun. 
+
+<p>We checked which font colors stood out best agaist these base colors.  All receiving good ratings.  Graphic illustrated below: </p>
+
+
+%%%%%
 
 ### Typography
 We used the font Montserrat which use a Sans Serif which is good for accessibility and is a dyslexia friendly font. 
@@ -40,12 +43,13 @@ We have professional head shots taken of each of our healthcare workers within t
 All images contain 'alt' text so that it can be more accessible for screen readers and search engines.
 
 ### Wireframes
-We created a wireframe using Balsamiq to plan out the structure and style of the website. We spoke with the users to gain their insight and views.  This was created for  displaying the site on mobiles and larger screens such as tablets and desktops. This was the beginning of our design journey, as we progressed with the design we made some changes to the actual website. During this planning phase we researched the fonts and background colors and text colors that would be most suitable and gained user feedback.  
+We created a wireframe using Balsamiq to plan out the structure and style of the website. We spoke with the teachers and pupils to gain their insight and views.  This was created for  displaying the site on mobiles and larger screens such as tablets and desktops. This was the beginning of our design journey, as we progressed with the design we made some changes to the actual website. During this planning phase we researched the fonts and background colors and text colors that would be most suitable and gained user feedback.  
 
-**Picture below of example of WIREFRAMES**
+**Picture below of WIREFRAMES**
 
-### Home Page
-<img width="766" alt="Screenshot 2024-07-26 at 21 13 32" src="https://github.com/user-attachments/assets/e9e3a812-fcbf-43d7-955b-3855a474b5a3">
+### Home Page - Introduction to the Biology Quiz Game
+
+
 
 ### Meet the Team Page
 <img width="761" alt="Screenshot 2024-07-30 at 12 53 41" src="https://github.com/user-attachments/assets/6b7dddf9-b597-454c-adf2-1071d5e253d2">
@@ -146,6 +150,7 @@ HTML and CSS
 ## Frameworks, Libraries and Programs Used
 * Balsamiq Wireframes - used to create wireframes
 * Git - version control
+* Git Pod
 * Git Hub - To save and store the files for the website 
 * Google Fonts - to import fonts onto the website
 * Font Awesome for iconography on website 
