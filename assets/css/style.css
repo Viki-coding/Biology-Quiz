@@ -8,9 +8,7 @@
     text-align: center;
 }
 
-
 /* Add fortnite background color to style sheet */
-
 body {
     background: #319236;
 }
@@ -44,8 +42,9 @@ body {
 }
 
 /* Add styling to answer buttons, use fortnite color palette */
-/* Box shadow inspired by W3 schools */ 
+/* Box shadow & pointer inspired by W3 schools */ 
 .btn {
+    cursor: pointer;
     background: #f3af19;
     color: black;
     font-weight: 450;
@@ -58,3 +57,8 @@ body {
     border-radius: 8px;
 }
 
+/* create a hover effect when going over potential answers, re-created from W3 schools*/
+.btn:hover {
+    background: #9d4dbb;
+    color: white;
+}
