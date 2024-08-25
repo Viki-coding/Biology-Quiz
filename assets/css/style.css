@@ -64,7 +64,7 @@ body {
     font-size: larger;
 }
 
-#next.btn {
+#nextbtn {
     background: #9d4dbb;
     color: white;
     width: 200px;
@@ -77,7 +77,7 @@ body {
     display: none;
 }
 
-#next.btn:hover {
+#nextbtn:hover {
     background: #319236;
     columns: white;
 }
