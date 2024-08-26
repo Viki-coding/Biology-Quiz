@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function()){
 // Display RESULTS score and final message// 
 // If user clicks replay – reset score and start on question 11-20.// 
 
-
+// let the variable of questions include the following list(array) of questions and answers//
 let questions = [
     {
         question: "What do motor neurons connect to?", 
