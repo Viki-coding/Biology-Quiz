@@ -15,20 +15,20 @@ body {
 
 .quizbox {
     background: #4c51f7;
-    width: 90%;
-    max-width: 600px;
+    padding: 30px;
     margin: 100px auto 0;
     border-radius: 5%;
-    padding: 30px;
     color: white;
+    width: 90%;
+    max-width: 600px;
 }
 
 .quizbox > h1{
     color: white;
     font-size: 50px;
     font-weight: 500;
-    border-bottom:2px solid #319236
     padding-bottom: 20px;
+    border-bottom: #319236 6px solid;
 }
 
 .quiz {
@@ -37,7 +37,7 @@ body {
 
 .quiz > h2{
     font-size: 18px;
-    color: #319236;
+    color: #white;
     font-weight: 600;
 }
 
@@ -69,12 +69,12 @@ body {
     color: white;
     width: 200px;
     border:#f3af19
-    font-weight:500;
+    font-weight: 500;
     padding: 10px;
     margin: 20px auto 0;
     border-radius: 8px;
     /* do not display next buttton till answer is selected */ 
-    display: none;
+    /*display: none; */
 }
 
 #nextbtn:hover {
