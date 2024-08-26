@@ -24,7 +24,7 @@ First Time users will find the site intuitive and easy to navigate.  The site pr
 The Home page has a clear call to action with features such clear and easy to understand Instructions with a START button to begin.
 Our return customers will recall how easy it is to navigate and to see if they can improve on previous scores. 
 
-## Design Choices ## %%%%%%%%%%%%
+## Design Choices ## 
 
 ### Color Scheme
 We did some research to investigate the most popular computer games amounst this age group of males and females between the 12-16 age bracket.  Fortnite was one of the most popular amoungst both sexes.  We decided to use the Fortnite color scheme.  We hope that this will invoke a sense of a challenge, a sense of belonging, a sense of fun. 
@@ -32,37 +32,34 @@ We did some research to investigate the most popular computer games amounst this
 <p>We checked which font colors stood out best agaist these base colors.  All receiving good ratings.  Graphic illustrated below: </p>
 
 
-%%%%%
+
 
 ### Typography
-We used the font Montserrat which use a Sans Serif which is good for accessibility and is a dyslexia friendly font. 
-We feel it looks professional and is clear and easy to read. 
+We used the font Comic Sans which use a Sans Serif which is good for accessibility and is a dyslexia friendly font. 
+We feel it looks fun and is clear and easy to read. 
 
-### Imagery 
-We have professional head shots taken of each of our healthcare workers within the medical workspace using similar backgrounds, style and size. All the images show a professional healthcare worker. The HOME page image shows a friendly smiling face, creating an emotional response to make the user more at ease, encouraging them to contact us. 
-All images contain 'alt' text so that it can be more accessible for screen readers and search engines.
 
 ### Wireframes
-We created a wireframe using Balsamiq to plan out the structure and style of the website. We spoke with the teachers and pupils to gain their insight and views.  This was created for  displaying the site on mobiles and larger screens such as tablets and desktops. This was the beginning of our design journey, as we progressed with the design we made some changes to the actual website. During this planning phase we researched the fonts and background colors and text colors that would be most suitable and gained user feedback.  
+We created a wireframe using Balsamiq to plan out the structure and style of the app. We spoke with the teachers and pupils to gain their insight and views.  This was created for  displaying the site on mobiles and larger screens such as tablets and desktops. This was the beginning of our design journey, as we progressed with the design we made some changes to the actual website. During this planning phase we researched the fonts and background colors and text colors that would be most suitable and gained user feedback.  
 
 **Picture below of WIREFRAMES**
 
-### Home Page - Introduction to the Biology Quiz Game
+### Login In & Instructions Area
 
 
 
-### Meet the Team Page
-<img width="761" alt="Screenshot 2024-07-30 at 12 53 41" src="https://github.com/user-attachments/assets/6b7dddf9-b597-454c-adf2-1071d5e253d2">
 
-### Call Back Request
-<img width="689" alt="Screenshot 2024-07-30 at 12 53 58" src="https://github.com/user-attachments/assets/0ad70b93-f19e-4900-9000-a68e6b712639">
+### Quiz Area
+
+
+### End Game & Results ARea
 
 
 ## FEATURES
 
-> ## HOME PAGE
+> ## Login In & Instructions Area
 > 
-The HOME page contains a clear information section on what we offer and how to contact us. 
+The Login and Instructions Area 
 ___
 
 <img width="1421" alt="Screenshot 2024-07-30 at 12 14 10" src="https://github.com/user-attachments/assets/6e1df62d-7751-4e38-a6be-e8d4ba4f55ea">
@@ -242,7 +239,14 @@ Each page has been inspected using google chrome developer tools and Firefox ins
 5. Copy 'git clone' into the terminal and paste the link you copied in step 3.  Press enter.
 
 ### Acknowledging Contributions & Credits
-We followed along the CI instruction videos for the 'Love Running' site and created the basis of our site going through it step by step.  We researched and copied the code for the 'Meet the Team' cards showing our healthcare professionals from W3 schools website. 
+We gained inspiration from these tutorial videos on youtube:
+https://www.youtube.com/watch?v=MkvHPOT4RS8   How to HIDE and SHOW HTML using JavaScript 
+https://www.youtube.com/watch?v=-oQnDrNzTTA. Hide and Show div using JavaScript | On Click Hide and Show Div[HowToCode School.com]
+
+
+
+We gained some inspiration from the CI instruction videos for the 'Love Maths' site. 
+
 
 We got help with the READ.me by watching the video 'Creating your first README with Kera Cudmore' on CI Chanel Lead Library on YouTube and also the video with Lane-Sawyer Thompson on CI Channel on YouTube.  Thanks to the on-line tutors, Ray, Gemma, Roo and Alan for their expertise and ability to explain some of the 'challenges' we encountered. Thanks our very supportive and positive facilitator Laura Maycock and my Kiwi mentor Dick Vlaanderen.
 Also found the webinar 'Community Q&A: How to Troubleshoot with Lane-Sawyer Thompson' very helpful approach to how to view looking at the site for bugs and methodically identifying issues. 
