@@ -59,90 +59,44 @@ We created a wireframe using Balsamiq to plan out the structure and style of the
 
 > ## Login In & Instructions Area
 > 
-The Login and Instructions Area 
+The Login and Instructions Area is a nice clear, easy to read set of instructions.  The user is promoted to enter their first name into the value box as it has been pre-populated with the text 'Enter First Name'.  Then the natural progression is to move down to click on the large bright START button under it.  If the user has not entered  a name they will be prompted to do so if they click on start without prepopulating the field. 
 ___
 
-<img width="1421" alt="Screenshot 2024-07-30 at 12 14 10" src="https://github.com/user-attachments/assets/6e1df62d-7751-4e38-a6be-e8d4ba4f55ea">
+## Quiz Area
 
-## Navigation Bar
-Our navigation bar on the top, which shows a menu 'burger' icon on mobile and expands to detail on larger devices. Our navigation menu clearly shows which page the user is on as it is underlined. 
-___
-
-The hero image is of a friendly, happy faced healthcare worker which sets up the friendly tone and familiarity that Dungarvan Health Clinic wish to portray. 
-We clearly list the healthcare services provided. 
-Our call to action feature on this Home page is the phone number, we want people to contact us.  The phone number is visible, on larger screens it enlarges when the mouse hovers over it and if clicked will begin a call. 
 
 ____
 
 
-## Footer
-Our Footer bar offers easy access to the location details of our health clinic with Eircode and active links to our Facebook and Instagram pages, which open in separate tabs. 
 
-
-> ## MEET THE TEAM
+> ## Endgame & Results Area 
 >
-Shows our healthcare workers, qualifications and spoken languages on nice feature cards which stack when viewing on mobile, making it look professional while giving the user their first introduction to their doctor or health professional which will help to make them more comfortable at their first appointment. 
-Navigation bar also displayed on top with easy access to the other pages. 
-Footer bar remains the same with the location details and social media links.
-
-**Picture below of out Meet the Team page**
-
-<img width="1420" alt="Screenshot 2024-07-30 at 12 14 35" src="https://github.com/user-attachments/assets/6201008f-b21c-4794-8918-a96819320b91">
 
 
-> ## CALL BACK REQUEST
+**Picture belows
+
+
+> ## Login
 > 
-The user has the benefit of requesting a 'Call Back' with regard to a specific health category.  This is done through an easy to use form. This form once submitted will be sent to the administrative team at the Health Clinic.  The admin team will then call back the patients and offer them the appropriate appointment. 
-
-**Picture below of example of Call Back Request Form**
-
-<img width="1435" alt="Screenshot 2024-07-30 at 12 14 51" src="https://github.com/user-attachments/assets/a97c731a-d87a-4b6a-a546-26f10a53b4c0">
 
 
-**The benefit of the 'Call-Back' form is useful for 3 main reasons**:
-1. It allows patients who may be at work, or out of hours, or busy with childcare an opportunity to take action to making the first-step in contacting a health professional.
-2. It allows for the Health practice itself to manage the appointments in a more efficient manner as it sees the category the patient is interested in and allows them to 'Call Back' in quieter clinic times.
-3. It allows the health clinic to gain insightful data of requests and can make future plans such as expanding specific healthcare areas to accommodate increasing needs. 
-
-This form asks for the users first and last name, email and phone number.  It then asks to choose which health care area they wish to get a call back about, they select using a radio button whether it’s the GP, Dietician, Asthma Specialist or Women's Health appointment they are seeking. 
-
-This feature allows the user to interact with the clinic, even during out of hours and creates an action - they will receive a call back if the form is submitted. When they hover the mouse over the SUBMIT button the text enlarges encouraging them to click and commit. 
-
-Navigation and footer bar remains the same on all three pages to offer consistency and good user experience.
-
-### Navigation & Interaction Points 
-We have 3 pages on our site - Home - Meet the Team - Call Back Request
-
-Our three pages will be displayed on our nav bar at the top of each page and can be navigated easily between.  The user will understand which page they are on as there is an underline under the active page.
-
-We will be interacting with the user when they click on the Phone link on the HOME page.  
-
-![Phone](https://github.com/user-attachments/assets/60c8f188-7b71-4429-b24b-3c24179bbeff)
-
-They will have their first interaction with their healthcare worker when they view them on the 'Meet the Team' page. They can get familiar with which healthcare worker would be the best fit for them.   
-
-Another great interaction point is our forms section to make a Call Back request - creating an action to making that first step to initiating an appointment, the following screen is displayed to the user once they click on the SUBMIT button offering positive feedback and confirming the Health Clinic will be in touch. 
-
-<img width="1436" alt="Screenshot 2024-07-31 at 12 54 47" src="https://github.com/user-attachments/assets/f0bfd9d3-917b-4273-b511-22639c3558eb">
-
-
-Finally they can interact with our social media sites by clicking on the links which will open in a new page. 
+### Interaction Points 
+ 
 
 
 ## Future Implementation Section 
-This site could be developed in the future with the patients making their own on-line bookings. 
-Payments could be made on-line with a history of invoices paid so the user can claim it back on their tax relief rather than having physical pieces of paper stored in random places at home. 
-Patients could access Downloadable patient information sheets. 
-List of available services and doctors could be expanded. 
+
 
 ## Accessibility
-Meaningful Alt descriptions on all images making it suitable for screen readers and descriptive for screen reader users. Aria labels used to describe the content for screen readers and other accessibility tools.
+Aria labels used to describe the content for screen readers and other accessibility tools.
 Colors suitable for people who are color blind and sans serif text suitable for people with dyslexia.
 We used coolers to ensure our background and contrast colors worked efficiently and clearly.
-After running our deployed site in incognito mode using Lighthouse we identified that our radio buttons on our form were too small and not spaced apart enough for accessibility.  We fixed this ran Lighthouse again getting excellent accessibility scores in all pages. 
+After running our deployed site in incognito mode using Lighthouse we identified ?????
+
+
 
 ## Technologies Used
-HTML and CSS
+HTML and CSS and JS
 
 ## Frameworks, Libraries and Programs Used
 * Balsamiq Wireframes - used to create wireframes
@@ -162,17 +116,10 @@ We performed manual testing on the site and also ran our html and css codes thro
 * HTML code on all pages passes through the official W3C validator with no issues.
   
 ## HOME Page - 3C Validator Test:
-<img width="1380" alt="Home Page Validator" src="https://github.com/user-attachments/assets/185224bc-9ed0-4478-bd5e-11ac40c23268">
-
-## Meet the Team Page - 3C Validator Test:
-<img width="1388" alt="Meet the Team validator" src="https://github.com/user-attachments/assets/34d27d92-dec7-45db-964e-273b3e1fbfea">
-
-## Call Back Request Page - 3C Validator Test:
-<img width="1366" alt="Call Back HTML validator" src="https://github.com/user-attachments/assets/9010e268-d982-4b80-b8ad-1dee100c591c">
+ssets/9010e268-d982-4b80-b8ad-1dee100c591c">
 
 ## CSS (Jigsaw) validator
 * CSS code passes through the official (Jigsaw) validator with no issues
-<img width="1385" alt="Screenshot 2024-07-31 at 14 56 28" src="https://github.com/user-attachments/assets/5bdfb187-3346-4918-9a4f-4d7de634ec33">
 
 
 ### Quality Assurance 
@@ -181,7 +128,6 @@ We created a specific testing template to ensure and re-check all pages were wor
 
 **Test Evaluation Sheet**:
 
-<img width="1195" alt="Screenshot 2024-07-29 at 15 12 40" src="https://github.com/user-attachments/assets/e1cebea5-8a38-42fa-b9d0-993790b15741">
 
 As shown in the evaluation sheet above we navigated around our site and tested all available options to ensure they were working as intended, such as checking if a valid email address is entered and prompting the user if it is not, checking when we click on the Facebook icon, that it does in fact take us to a Facebook page and opens in a new page. 
 
