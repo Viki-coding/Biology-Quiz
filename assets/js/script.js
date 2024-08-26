@@ -1,5 +1,12 @@
-// comments //
 // Event Listener for DOM to start quiz once all loaded//
+document.addEventListener("DOMContentLoaded", function()){
+    
+
+    }
+}
+
+
+
 // Event Listener – has player entered NAME?// 
 // Event Listener  - Load questions once player has ENTERED NAME and clicked on START// 
 // Event Listener  - Load NEXT questions once player has selected an ANSWER and clicked on NEXT// 

@@ -25,6 +25,25 @@
 </head>
 
 <body>
+    <!-- Login Area --> 
+    <div class="loginarea">
+        <h1>HOW TO PLAY</h1>
+        <div id="instructions">
+            <h2 id="rules">Instructions</h2>
+            <ol>
+                <li> Enter your name in box below and click START </li>
+                <li> A question with four possible answers will be displayed</li>
+                <li> Click on your preferred answer</li>
+                <li> Correct answer will be displayed in green, incorrect in red</li>
+                <li> Click next to proceed to next question</li>
+            </ol>
+        </div>
+        <input type="text" id="name" aria-placeholder="Ener name here">
+        <button id="start-btn" class="btn">START</button>
+    
+    </div>
+
+    <!-- Quiz Area --> 
     <div class="quizbox">
         <h1>Biology Quiz</h1>
         <div class="quiz">
@@ -36,6 +55,20 @@
         </div>
             <button id="nextbtn">NEXT</button>
     </div>
+
+    <!-- Endgame Area --> 
+     <div id="endgame">
+        <h1>RESULTS</h1>
+        <div class="results">
+            <h3 id="score">
+                <h2 id="username">Username</h2>
+                <h3>You scored:</h3>
+                <p><span id="final-score"></span></p>
+
+        </div> 
+        <button id="startagain-btn" class="btn">PLAY AGAIN</button>
+        <button id="home" class="btn">HOME</button>
+     </div>
 
 
     <!-- Connect to JS file -->
