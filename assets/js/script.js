@@ -119,5 +119,6 @@ let questions = [
             { text: "Motor", correct: false}, 
             { text: "Receptor", correct: true}, 
         ]
-    },
-]
+    }
+];
+
