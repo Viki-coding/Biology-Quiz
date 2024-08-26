@@ -210,26 +210,8 @@ Incognito lighthouse testing was completed on all pages with excellent results e
  
  
   **Solved Bugs**
-  When running W3C CSS validator - it displayed the following message: 
   
-    <img width="1291" alt="Screenshot 2024-07-27 at 12 18 40" src="https://github.com/user-attachments/assets/87aed563-5abe-4383-a099-9e2f15e15b68">
-
- We fixed the spaces in the file name and in the root directory which fixed the errors. 
- 
-<img width="1354" alt="Screenshot 2024-07-27 at 12 22 17" src="https://github.com/user-attachments/assets/f886b2fd-fba6-4f0b-8799-b3ea3a7cba06">
-
-Our navigation bar was overlapping with our main header, we watched some YouTube videos to understand how to rectify this and found "Prevent Fixed Navbar overlapping" by ByteGrad very helpful. 
-
-On the phone link on the Home page we created code to make the phone number larger on hover, it was working and then on testing was not working.  We fixed this bug as we had subsequently put the phone number in heading 3 style, so then changed the parent in the hover code.
-
-On our Call back page we wanted to click on the SUBMIT button and be redirected to another page to say Thank you for your request, we will be in touch shortly. We were using the method:GET rather than POST and had the incorrect link to re-direct causing a 404 error page to be displayed, the link was updated correctly which rectified the error and is now working.  
- <img width="467" alt="Error page when form submitted bug" src="https://github.com/user-attachments/assets/4b6d1da3-07fb-4bad-bd42-24ae3e16c6f7">
-
-<img width="1328" alt="Bugs on Call Back Page" src="https://github.com/user-attachments/assets/b95b5523-0de8-4922-8153-cd1180f7a21c">
-The validator identified some bugs on the Call Back Page which we fixed and rectified.  
-
-<img width="1383" alt="Screenshot 2024-07-31 at 14 50 39" src="https://github.com/user-attachments/assets/e32410cc-abdd-458d-9e73-bc4da361540c">
-Teh CSS validator found some bugs on the CSS stle sheet which we fixed and rectified.  
+Enter name input field width not fitting when changeing width to mobile. 
 
 
 ### User Experience Assurance

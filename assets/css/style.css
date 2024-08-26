@@ -33,7 +33,7 @@ body {
     max-width: 600px;
 }
 
-.loginarea > h1{
+.loginarea > h1 {
     color: white;
     font-size: 50px;
     font-weight: 500;
@@ -47,7 +47,13 @@ body {
     font-size: larger;
     color: #white;
     line-height: 200%;
+    padding-bottom: 20px;
+}
 
+#name {
+    width: 200px;
+    height: 50px;
+    font-size: 1em;
 }
 
 .endgame {
