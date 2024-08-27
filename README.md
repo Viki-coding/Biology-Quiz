@@ -188,6 +188,7 @@ Each page has been inspected using google chrome developer tools and Firefox ins
 We gained inspiration from these tutorial videos on youtube:
 https://www.youtube.com/watch?v=MkvHPOT4RS8   How to HIDE and SHOW HTML using JavaScript 
 https://www.youtube.com/watch?v=-oQnDrNzTTA. Hide and Show div using JavaScript | On Click Hide and Show Div[HowToCode School.com]
+https://www.w3schools.com/jsref/jsref_foreach.asp forEach method in Javascript to get inspiration fothe question/answers.
 
 
 

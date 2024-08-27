@@ -128,15 +128,24 @@ const answerButton = document.getElementById(answer-buttons);
 const nextButton = document.getElementById(nextbtn);
 
 //Question number and score changing once we start quiz - create variables to restore question index and score//
-let currentQuestionNumber = 0;
+let currentQuestionIndex = 0;
 let score = 0; 
 
 //Function to start quiz -> reset current question and score to begin at 0//
 // -> reset next.Button //
-// -> show the question //
+// -> call the display question function//
 function startQuiz(){
-    currentQuestionNumber = 0
+    currentQuestionIndex = 0
     score = 0;
     nextButton.innerHTML = "Next";
-    showQuestion();
+    displayQuestion();
+}
+
+//call on the current questions from the question array//
+// set the question number incrementally//
+//display the various questions using the question element that we have id in the html//
+function displayQuestion(){
+    let currentQuestion = questions [currentQuestionIndex];
+    let questionNum = currentQuestionIndex +1;
+    questionElement.innerHTML = questionNum + ". " + currentQuestion.question;
 }
