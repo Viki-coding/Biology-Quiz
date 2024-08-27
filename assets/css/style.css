@@ -78,6 +78,15 @@ body {
     font-weight: 600;
 }
 
+/* add styling of the classes from js file */
+.correct{
+    background: #319236;
+}
+
+.incorrect{
+    background: red;
+}
+
 /* END OF GAME STYLING */
 .endgame {
     background: #4c51f7;

@@ -278,6 +278,7 @@ function displayQuestion() {
         }
     }
 
+    //Checks the chosen answer from the dataset and checks if the chosen answer is true or false//
     function chosenAnswerAnswer(e) {
         let chosenAnswer = e.target;
         let isRight = chosenAnswer.dataset.correct === "true";
