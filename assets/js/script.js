@@ -118,7 +118,7 @@ let questions = [
 
 //Add variables to questions and answers and next button in quiz area//
 let questionElement = document.getElementById("question");
-let answerButton = document.getElementById("answer-buttons");
+let answerButton = document.getElementById("ans-buttons");
 let nextButton = document.getElementById("nextbtn");
 
 //Question number and score changing once we start quiz - create variables to restore question index and score//
@@ -148,10 +148,11 @@ function displayQuestion(){
 //create the button tag and save it as a variable, then add the answer text//
 //display the button inside the div which we id'd in our html as answerButton//
     currentQuestion.answers.forEach(answer => {
-        const button = document.createElement("button");
+        let button = document.createElement("button");
         button.innerHTML = answer.text;
         button.classList.add("btn");
         answerButton.appendChild(button);
     });
 }
 
+startQuiz();

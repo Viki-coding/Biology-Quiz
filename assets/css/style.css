@@ -68,11 +68,11 @@ body {
     border-bottom: #319236 6px solid;
 }
 
-.quiz {
+#biologyquiz {
     padding: 20px 0;
 }
 
-.quiz > h2{
+#biologyquiz > h2{
     font-size: 18px;
     color: #white;
     font-weight: 600;
