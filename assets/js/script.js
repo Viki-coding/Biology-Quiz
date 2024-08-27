@@ -259,35 +259,35 @@ function displayQuestion() {
     //if the answer is true then we add a dataset which equals correct answer//
     //Add event listerner when the mouse clicks an answer, this will then run the chosenAnswer function//
     currentQuestion.answers.forEach(answer => {
-            let button = document.createElement("button");
-            button.innerHTML = answer.text;
-            button.classList.add("btn");
-            answerButtons.appendChild(button);
-            if (answer.correct) {
-                button.dataset.correct = answer.correct;
-            }
-            button.addEventListener("click", chosenAnswer ");
-            });
-    }
-
-    //Remove all previous answers//
-    function reset() {
-        nextButton.style.display = "none";
-        while (answerButtons.firstChild) {
-            answerButtons.removeChild(answerButtons.firstChild);
+        let button = document.createElement("button");
+        button.innerHTML = answer.text;
+        button.classList.add("btn");
+        answerButtons.appendChild(button);
+        if (answer.correct) {
+            button.dataset.correct = answer.correct;
         }
-    }
+        button.addEventListener("click", chosenAnswer);
+    });
+}
 
-    //Checks the chosen answer from the dataset and checks if the chosen answer is true or false//
-    function chosenAnswerAnswer(e) {
-        let chosenAnswer = e.target;
-        let isRight = chosenAnswer.dataset.correct === "true";
-        if (isRight) {
-            chosenAnswer.classList.add("correct");
-        } else {
-            chosenAnswer.classList.add("incorrect");
-        }
+//Remove all previous answers//
+function reset() {
+    nextButton.style.display = "none";
+    while (answerButtons.firstChild) {
+        answerButtons.removeChild(answerButtons.firstChild);
     }
+}
+
+//Checks the chosen answer from the dataset and checks if the chosen answer is true or false//
+function chosenAnswerAnswer(e) {
+    let chosenAnswer = e.target;
+    let isRight = chosenAnswer.dataset.correct === "true";
+    if (isRight) {
+        chosenAnswer.classList.add("correct");
+    } else {
+        chosenAnswer.classList.add("incorrect");
+    }
+}
 }
 
 startQuiz();
