@@ -126,3 +126,17 @@ let questions = [
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById(answer-buttons);
 const nextButton = document.getElementById(nextbtn);
+
+//Question number and score changing once we start quiz - create variables to restore question index and score//
+let currentQuestionNumber = 0;
+let score = 0; 
+
+//Function to start quiz -> reset current question and score to begin at 0//
+// -> reset next.Button //
+// -> show the question //
+function startQuiz(){
+    currentQuestionNumber = 0
+    score = 0;
+    nextButton.innerHTML = "Next";
+    showQuestion();
+}
