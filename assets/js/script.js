@@ -118,7 +118,7 @@ let questions = [
 
 //Add variables to questions and answers and next button in quiz area//
 let questionElement = document.getElementById("question");
-let answerButton = document.getElementById("ans-buttons");
+let answerButtons = document.getElementById("ans-buttons");
 let nextButton = document.getElementById("nextbtn");
 
 //Question number and score changing once we start quiz - create variables to restore question index and score//
@@ -151,8 +151,15 @@ function displayQuestion(){
         let button = document.createElement("button");
         button.innerHTML = answer.text;
         button.classList.add("btn");
-        answerButton.appendChild(button);
+        answerButtons.appendChild(button);
     });
+}
+
+function reset() {
+    nextButton.style.display = "none";
+    while(answerButtons.firstChild){
+        answerButtons.removeChild(answerButtons.firstChild);
+    }
 }
 
 startQuiz();
