@@ -1,10 +1,4 @@
 // Event Listener for DOM to start quiz once all loaded//
-document.addEventListener("DOMContentLoaded", function()){
-    
-
-    }
-}
-
 
 
 // Event Listener – has player entered NAME?// 
@@ -123,9 +117,9 @@ let questions = [
 ];
 
 //Add variables to questions and answers and next button in quiz area//
-const questionElement = document.getElementById("question");
-const answerButton = document.getElementById(answer-buttons);
-const nextButton = document.getElementById(nextbtn);
+let questionElement = document.getElementById("question");
+let answerButton = document.getElementById("answer-buttons");
+let nextButton = document.getElementById("nextbtn");
 
 //Question number and score changing once we start quiz - create variables to restore question index and score//
 let currentQuestionIndex = 0;
@@ -135,9 +129,9 @@ let score = 0;
 // -> reset next.Button //
 // -> call the display question function//
 function startQuiz(){
-    currentQuestionIndex = 0
+    currentQuestionIndex = 0;
     score = 0;
-    nextButton.innerHTML = "Next";
+    nextButton.innerHTML = "NEXT";
     displayQuestion();
 }
 
@@ -150,9 +144,9 @@ function displayQuestion(){
     let questionNum = currentQuestionIndex +1;
     questionElement.innerHTML = questionNum + ". " + currentQuestion.question;
 
-//using our answer and text answers above it will populate the inner html buttons//
-//add the button class name//
-//display the button inside the div which we id as answerButton//
+//Display our answer and text answers for the current questions listed above it will populate the inner html buttons//
+//create the button tag and save it as a variable, then add the answer text//
+//display the button inside the div which we id'd in our html as answerButton//
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
         button.innerHTML = answer.text;
