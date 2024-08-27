@@ -122,3 +122,7 @@ let questions = [
     }
 ];
 
+//Add variables to questions and answers and next button in quiz area//
+const questionElement = document.getElementById("question");
+const answerButton = document.getElementById(answer-buttons);
+const nextButton = document.getElementById(nextbtn);
