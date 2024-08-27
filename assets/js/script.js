@@ -141,6 +141,7 @@ function startQuiz(){
     displayQuestion();
 }
 
+//Display Question & Answer//
 //call on the current questions from the question array//
 // set the question number incrementally//
 //display the various questions using the question element that we have id in the html//
@@ -148,4 +149,15 @@ function displayQuestion(){
     let currentQuestion = questions [currentQuestionIndex];
     let questionNum = currentQuestionIndex +1;
     questionElement.innerHTML = questionNum + ". " + currentQuestion.question;
+
+//using our answer and text answers above it will populate the inner html buttons//
+//add the button class name//
+//display the button inside the div which we id as answerButton//
+    currentQuestion.answers.forEach(answer => {
+        const button = document.createElement("button");
+        button.innerHTML = answer.text;
+        button.classList.add("btn");
+        answerButton.appendChild(button);
+    });
 }
+
