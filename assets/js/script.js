@@ -228,7 +228,7 @@ let questions = [{
 //Add variables to questions and answers and next button in quiz area//
 let questionElement = document.getElementById("question");
 let answerButtons = document.getElementById("ans-buttons");
-let nextButton = document.getElementById("nextbtn");
+let nextButton = document.getElementById("next-button");
 
 //Question number and score changing once we start quiz - create variables to restore question index and score//
 let currentQuestionIndex = 0;

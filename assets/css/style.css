@@ -149,7 +149,7 @@ body {
     font-size: larger;
 }
 
-#nextbtn {
+#next-button {
     background: #9d4dbb;
     color: white;
     width: 200px;
@@ -162,7 +162,7 @@ body {
     /*display: none; */
 }
 
-#nextbtn:hover {
+#next-button:hover {
     background: #319236;
     columns: white;
 }
