@@ -232,67 +232,25 @@ let nextButton = document.getElementById("next-button");
 
 //Question number and score changing once we start quiz - create variables to restore question index and score//
 let currentQuestionIndex = 0;
-let score = 0;
+let score = 0; 
 
 //Function to start quiz -> reset current question and score to begin at 0//
 // -> reset next.Button //
 // -> call the display question function//
-function startQuiz() {
-    currentQuestionIndex = 0;
+function startQuiz(){
+    currentQuestionIndex = 0
     score = 0;
-    nextButton.innerHTML = "NEXT";
+    nextButton.innerHTML = "Next";
     displayQuestion();
 }
 
-//Display Question & Answer//
 //call on the current questions from the question array//
 // set the question number incrementally//
 //display the various questions using the question element that we have id in the html//
-function displayQuestion() {
-    let currentQuestion = questions[currentQuestionIndex];
-    let questionNum = currentQuestionIndex + 1;
+function displayQuestion(){
+    let currentQuestion = questions [currentQuestionIndex];
+    let questionNum = currentQuestionIndex +1;
     questionElement.innerHTML = questionNum + ". " + currentQuestion.question;
-
-
-    //Display our answer and text answers for the current questions listed above it will populate the inner html buttons//
-    //create the button tag and save it as a variable, then add the answer text//
-    //display the button inside the div which we id'd in our html as anwerbuttons//
-    //if the answer is true then we add a dataset which equals correct answer//
-    //Add event listerner when the mouse clicks an answer, this will then run the chosenAnswer function//
-    currentQuestion.answers.forEach(answer => {
-        let button = document.createElement("button");
-        button.innerHTML = answer.text;
-        button.classList.add("btn");
-        answerbuttons.appendChild(button);
-
-
 }
 
-
-
-//Remove all previous answers//
-function reset() {
-    nextButton.style.display = "none";
-    while (answerButtons.firstChild) {
-        answerButtons.removeChild(answerButtons.firstChild);
-    }
-}
-
-//Checks the chosen answer from the dataset and checks if the chosen answer is true or false//
-function chosenAnswer(e) {
-    let chosenAnswer = e.target;
-    let isRight = chosenAnswer.dataset.correct === "true";
-    if (isRight) {
-        chosenAnswer.classList.add("correct");
-    } else {
-        chosenAnswer.classList.add("incorrect");
-    }
-}
-
-startQuiz();
-
-        if (answer.correct) {
-            button.dataset.correct = answer.correct;
-        }
-        button.addEventListener("click", chosenAnswer);
-    });
+startQuiz()
