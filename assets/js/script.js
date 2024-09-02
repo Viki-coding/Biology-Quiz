@@ -262,6 +262,9 @@ function displayQuestion(){
         button.innerText= answers.text;
         button.classList.add("btn");
         answerButtons.appendChild(button);
+        if(answerButtons.correct){
+            button.dataset.correct = answer.correct;
+        }
         button.addEventListener("click", selectAnswer);
     });
 
@@ -273,4 +276,15 @@ function resetState(){
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
+
+    function selectAnswer(e){
+        const selectedBtn = e.target;
+        const isCorrect = selectedBtn.dataset.correct === "true";
+        if(isCorrect){
+            selectedBtn.classList.add("correct");
+        }else{
+            selectedBtn.classList.add("incorrect");
+        }
+}
+
     startQuiz()
