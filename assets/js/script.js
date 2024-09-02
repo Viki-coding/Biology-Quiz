@@ -255,12 +255,14 @@ function displayQuestion(){
     questionElement.innerHTML = questionNum + ". " + currentQuestion.question;
     
 
-
+//display potential answers for each question in the buttons created in html//
+//add event listerner so that when user clicks on answer it will be recoginized//
     currentQuestion.answers.forEach(answers => {
         let button = document.createElement('button');
         button.innerText= answers.text;
         button.classList.add("btn");
         answerButtons.appendChild(button);
+        button.addEventListener("click", selectAnswer);
     });
 
 }
