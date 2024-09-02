@@ -226,7 +226,7 @@ let questions = [{
 ];
 
 //Add variables to questions and answers and next button in quiz area//
-let questionElement = document.getElementById("question");
+let questionElement = document.getElementsByClassName("questions");
 let answerButtons = document.getElementById("ans-buttons");
 let nextButton = document.getElementById("next-button");
 
@@ -253,22 +253,22 @@ function displayQuestion() {
     let questionNum = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNum + ". " + currentQuestion.question;
 
+
     //Display our answer and text answers for the current questions listed above it will populate the inner html buttons//
     //create the button tag and save it as a variable, then add the answer text//
-    //display the button inside the div which we id'd in our html as answerButton//
+    //display the button inside the div which we id'd in our html as anwerbuttons//
     //if the answer is true then we add a dataset which equals correct answer//
     //Add event listerner when the mouse clicks an answer, this will then run the chosenAnswer function//
     currentQuestion.answers.forEach(answer => {
         let button = document.createElement("button");
         button.innerHTML = answer.text;
         button.classList.add("btn");
-        answerButtons.appendChild(button);
-        if (answer.correct) {
-            button.dataset.correct = answer.correct;
-        }
-        button.addEventListener("click", chosenAnswer);
-    });
+        answerbuttons.appendChild(button);
+
+
 }
+
+
 
 //Remove all previous answers//
 function reset() {
@@ -279,7 +279,7 @@ function reset() {
 }
 
 //Checks the chosen answer from the dataset and checks if the chosen answer is true or false//
-function chosenAnswerAnswer(e) {
+function chosenAnswer(e) {
     let chosenAnswer = e.target;
     let isRight = chosenAnswer.dataset.correct === "true";
     if (isRight) {
@@ -288,6 +288,11 @@ function chosenAnswerAnswer(e) {
         chosenAnswer.classList.add("incorrect");
     }
 }
-}
 
 startQuiz();
+
+        if (answer.correct) {
+            button.dataset.correct = answer.correct;
+        }
+        button.addEventListener("click", chosenAnswer);
+    });
