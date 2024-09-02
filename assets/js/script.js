@@ -298,4 +298,14 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
+//if the current index is less than lenght then we add the next button otherwise we display start quix
+nextButton.addEventListener("click", ()=>{
+    if(currentQuestionIndex < questions.length){
+        handleNextButton();
+    }else{
+        startQuiz();
+    }
+    
+})
+
 startQuiz()
