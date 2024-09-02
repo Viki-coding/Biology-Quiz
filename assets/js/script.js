@@ -259,11 +259,11 @@ function displayQuestion(){
 //add event listerner so that when user clicks on answer it will be recoginized//
     currentQuestion.answers.forEach(answers => {
         let button = document.createElement('button');
-        button.innerText= answers.text;
+        button.innerHTML= answers.text;
         button.classList.add("btn");
         answerButtons.appendChild(button);
-        if(answerButtons.correct){
-            button.dataset.correct = answer.correct;
+        if(answers.correct){
+            button.dataset.correct = answers.correct;
         }
         button.addEventListener("click", selectAnswer);
     });
