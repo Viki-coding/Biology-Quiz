@@ -49,7 +49,7 @@ body {
 }
 
 /* QUIZ AREA STYLING */
-.quizbox {
+#quizbox {
     background: #4c51f7;
     padding: 30px;
     margin: 100px auto 0;
@@ -60,7 +60,7 @@ body {
 }
 
 
-.quizbox > h1{
+#quizbox > h1{
     color: white;
     font-size: 50px;
     font-weight: 500;
@@ -149,7 +149,7 @@ body {
     font-size: larger;
 }
 
-#next-button {
+#next-btn {
     background: #9d4dbb;
     color: white;
     width: 200px;
@@ -162,7 +162,7 @@ body {
     /*display: none; */
 }
 
-#next-button:hover {
+#next-btn:hover {
     background: #319236;
     columns: white;
 }
