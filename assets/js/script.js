@@ -247,7 +247,9 @@ function startQuiz(){
 //call on the current questions from the question array//
 // set the question number incrementally//
 //display the various questions using the question element that we have id in the html//
+//resetState to hide the Ansewer 1, 2, 3, 4 then //
 function displayQuestion(){
+    resetState();
     let currentQuestion = questions [currentQuestionIndex];
     let questionNum = currentQuestionIndex +1;
     questionElement.innerHTML = questionNum + ". " + currentQuestion.question;
@@ -261,5 +263,12 @@ function displayQuestion(){
         answerButtons.appendChild(button);
     });
 
+}
+//define function to resetState do the previous answers(firstChild) are not diplayed//
+function resetState(){
+    nextButton.style.display = "none"
+    while(answerButtons.firstChild){
+        answerButtons.removeChild(answerButtons.firstChild);
+    }
 }
     startQuiz()
