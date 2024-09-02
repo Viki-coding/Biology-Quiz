@@ -251,6 +251,15 @@ function displayQuestion(){
     let currentQuestion = questions [currentQuestionIndex];
     let questionNum = currentQuestionIndex +1;
     questionElement.innerHTML = questionNum + ". " + currentQuestion.question;
-}
+    
 
-startQuiz()
+
+    currentQuestion.answers.forEach(answers => {
+        let button = document.createElement('button');
+        button.innerText= answers.text;
+        button.classList.add("btn");
+        answerButtons.appendChild(button);
+    });
+
+}
+    startQuiz()
