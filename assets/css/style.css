@@ -132,7 +132,6 @@ body {
 /* Box shadow & pointer inspired by W3 schools */ 
 .btn {
     cursor: pointer;
-    background: #f3af19;
     color: black;
     font-weight: 600;
     width: 100%;
