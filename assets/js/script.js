@@ -30,7 +30,7 @@ let questions = [{
                 correct: false
             },
             {
-                text: "Muscles or glands",
+                text: "Muscles and glands",
                 correct: true
             },
             {

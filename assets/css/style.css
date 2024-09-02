@@ -79,11 +79,13 @@ body {
 }
 
 /* add styling of the classes from js file */
-.btn > .correct{
+/* targeting a class of a class inspired by W3 schools */
+
+.btn.correct{
     background: #319236;
 }
 
-.btn > .incorrect{
+.btn.incorrect{
     background: red;
 }
 
