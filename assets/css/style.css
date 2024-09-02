@@ -143,8 +143,8 @@ body {
     border-radius: 8px;
 }
 
-/* create a hover effect when going over potential answers, re-created from W3 schools*/
-.btn:hover {
+/* create a hover effect when going over potential answers, & no hover once answer selectd, re-created from W3 schools*/
+.btn:hover:not([disabled]) {
     background: #9d4dbb;
     color: white;
     font-size: larger;
@@ -160,7 +160,7 @@ body {
     margin: 20px auto 0;
     border-radius: 8px;
     /* do not display next buttton till answer is selected */ 
-    /*display: none; */
+    display: none;
 }
 
 #next-btn:hover {
