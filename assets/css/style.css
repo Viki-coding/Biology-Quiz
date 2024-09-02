@@ -79,11 +79,11 @@ body {
 }
 
 /* add styling of the classes from js file */
-.correct{
+.btn > .correct{
     background: #319236;
 }
 
-.incorrect{
+.btn > .incorrect{
     background: red;
 }
 

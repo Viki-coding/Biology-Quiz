@@ -277,6 +277,7 @@ function resetState(){
     }
 }
 
+//When user clicks on the selected answer it will check in the dataset answers if the ans is correct or incorrect//
     function selectAnswer(e){
         const selectedBtn = e.target;
         const isCorrect = selectedBtn.dataset.correct === "true";
