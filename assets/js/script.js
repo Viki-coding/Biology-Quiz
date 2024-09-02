@@ -226,9 +226,9 @@ let questions = [{
 ];
 
 //Add variables to questions and answers and next button in quiz area//
-let questionElement = document.getElementsByClassName("questions");
-let answerButtons = document.getElementById("ans-buttons");
-let nextButton = document.getElementById("next-button");
+let questionElement = document.getElementById("question");
+let answerButton = document.getElementById("ans-buttons");
+let nextButton = document.getElementById("nextbtn");
 
 //Question number and score changing once we start quiz - create variables to restore question index and score//
 let currentQuestionIndex = 0;
@@ -251,6 +251,23 @@ function displayQuestion(){
     let currentQuestion = questions [currentQuestionIndex];
     let questionNum = currentQuestionIndex +1;
     questionElement.innerHTML = questionNum + ". " + currentQuestion.question;
+
+//Display our answer and text answers for the current questions listed above it will populate the inner html buttons//
+//create the button tag and save it as a variable, then add the answer text//
+//display the button inside the div which we id'd in our html as answerButton//
+    currentQuestion.answers.forEach(answer => {
+        let button = document.createElement("button");
+        button.innerHTML = answer.text;
+        button.classList.add("btn");
+        answerButtons.appendChild(button);
+    });
 }
 
-startQuiz()
+function reset() {
+    nextButton.style.display = "none";
+    while(answerButtons.firstChild){
+        answerButtons.removeChild(answerButtons.firstChild);
+    }
+}
+
+startQuiz();
