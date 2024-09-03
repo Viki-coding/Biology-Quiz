@@ -2,9 +2,9 @@
 //Get username from input field//
 let username;
 
-document.getElementById("start-btn").onclick = function(){
-    username = document.getElementById("name").ariaValueMax;
-    document.getElementById("start-btn").textContent = 'Hello ${username}';
+document.getElementById("name").off = function(){
+    username = document.getElementById("name").value;
+    document.getElementById("welcome").textContent = 'Hello ${username}';
 }
 
 
