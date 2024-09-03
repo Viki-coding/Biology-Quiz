@@ -108,6 +108,7 @@ HTML and CSS and JS
 * Favicon.io - to create favicon
 * Coolors - checking colour pallets and their contrast abilities with fonts.
 * Berme.net - to reduce image sizes and convert to .webp
+* Canva - to create text image on flip card to use fortnite color pallette.
 
 ## Manual Testing 
 We performed manual testing on the site and also ran our html and css codes through validators. 
@@ -133,18 +134,7 @@ As shown in the evaluation sheet above we navigated around our site and tested a
 
 ## Lighthouse Testing
 Incognito lighthouse testing was completed on all pages with excellent results ensuring optimal page loading times:
-## HOME Page - Lighthouse Testing:
-<img width="492" alt="Screenshot 2024-07-31 at 12 40 38" src="https://github.com/user-attachments/assets/eee21020-12ba-40d1-9099-6e4ae37281a1">
-
-## Meet the Team - Lighthouse Testing:
-<img width="506" alt="Screenshot 2024-07-31 at 12 41 07" src="https://github.com/user-attachments/assets/681889e6-41e1-4932-af7d-f6442d8a2e21">
-
-## Call Back Request - Lighthouse Testing:
-<img width="502" alt="Screenshot 2024-07-31 at 12 41 37" src="https://github.com/user-attachments/assets/4c995f1f-5fbb-4b24-a966-2fa26c816b9c">
-
-## Call Back Request - Thank you for getting in touch page - Lighthouse Testing:
-<img width="513" alt="Screenshot 2024-07-31 at 12 42 15" src="https://github.com/user-attachments/assets/a3c7df3d-78bf-477a-9170-2c5ec780f2e1">
-
+## HOME Page - Lighthouse Testing
 
 
 
@@ -192,6 +182,7 @@ https://www.w3schools.com/jsref/jsref_foreach.asp forEach method in Javascript t
 https://www.youtube.com/watch?v=ml2N3APdoB0 How to revert to previous commits to source bug problem when none of my answers and questions would display.
 https://www.youtube.com/watch?v=JeXqaKeJSRI How to accept JavaScript USER INPUT in 5 minutes - Bro Code
 https://www.youtube.com/watch?v=JeXqaKeJSRI Local Storage Explained in 10 min - ProMaker Dev
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_card Inspired by W3 schools to create flip card to reveal results
 
 Image by Gerd Altmann from Pixabay Results image 
 
@@ -206,7 +197,7 @@ Also found the webinar 'Community Q&A: How to Troubleshoot with Lane-Sawyer Thom
 The content text for Dungarvan Health Clinic is fictious and is written by Viki Mulhall. The icons in the footer were taken from Font Awesome. 
 
 **MEDIA**
-The photos used on the all 3 pages were from Pixabay and are AI generated.
+The text image used on the results page was created by me, Viki Mulhall in canva. 
 
 ### Legal & Ethical Compliance 
 This project is for educational purposes only.
