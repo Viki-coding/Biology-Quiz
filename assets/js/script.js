@@ -1,10 +1,7 @@
 
 //Get username from input field//
-let username;
-
-document.getElementById("name").off = function(){
-    username = document.getElementById("name").value;
-    document.getElementById("welcome").textContent = 'Hello ${username}';
+function captureUserName(){
+    document.getElementById("name").innerText = document.getElementById("name").value;
 }
 
 
