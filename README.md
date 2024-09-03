@@ -193,6 +193,8 @@ https://www.youtube.com/watch?v=ml2N3APdoB0 How to revert to previous commits to
 https://www.youtube.com/watch?v=JeXqaKeJSRI How to accept JavaScript USER INPUT in 5 minutes - Bro Code
 https://www.youtube.com/watch?v=JeXqaKeJSRI Local Storage Explained in 10 min - ProMaker Dev
 
+Image by Gerd Altmann from Pixabay Results image 
+
 
 We gained some inspiration from the CI instruction videos for the 'Love Maths' site. 
 
