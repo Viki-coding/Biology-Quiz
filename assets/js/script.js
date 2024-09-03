@@ -1,4 +1,12 @@
 
+//Get username from input field//
+let username;
+
+document.getElementById("start-btn").onclick = function(){
+    username = document.getElementById("name").ariaValueMax;
+    document.getElementById("start-btn").textContent = 'Hello ${username}';
+}
+
 
 // let the variable of questions include the following list(array) of questions and answers//
 let questions = [{
