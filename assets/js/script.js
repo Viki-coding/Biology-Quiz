@@ -230,9 +230,9 @@ function startQuiz() {
 //call on the current questions from the question array//
 // set the question number incrementally//
 //display the various questions using the question element that we have id in the html//
-//resetState to hide the Ansewer 1, 2, 3, 4 then //
+//Reset to hide the Ansewer 1, 2, 3, 4 then //
 function displayQuestion() {
-    resetState();
+    reset();
     let currentQuestion = questions[currentQuestionIndex];
     let questionNum = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNum + ". " + currentQuestion.question;
@@ -252,8 +252,8 @@ function displayQuestion() {
     });
 
 }
-//define function to resetState do the previous answers(firstChild) are not diplayed//
-function resetState() {
+//define function to Reset do the previous answers(firstChild) are not diplayed//
+function reset() {
     nextButton.style.display = "none"
     while (answerButtons.firstChild) {
         answerButtons.removeChild(answerButtons.firstChild);
@@ -281,15 +281,25 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
+
+//Show the score function//
+function displayScore(){
+    reset();
+    questionElement.innnerHTML = `You scored ${score} out of ${question.length}!`;
+    nextButton.innerHTML = "Play Again";
+    nextButton.style.display = "block"
+}
+
+//Manage the next button when all questions are asked//
 function manageNextButton(){
     currentQuestionIndex++;
     if(currentQuestionIndex < questions.length){
         displayQuestion();
     }else{
-        showScore();
+        displayScore();
     }
 }
-//if the current index is less than lenght then we add the next button otherwise we display start quiz button?//
+//if the current index is less than lenght then we add the next button otherwise we display start quiz button//
 nextButton.addEventListener("click", ()=>{
     if(currentQuestionIndex < questions.length){
         manageNextButton();
