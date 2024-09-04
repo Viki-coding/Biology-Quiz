@@ -281,7 +281,7 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
-function handleNextButton(){
+function manageNextButton(){
     currentQuestionIndex++;
     if(currentQuestionIndex < questions.length){
         displayQuestion();
@@ -289,10 +289,10 @@ function handleNextButton(){
         showScore();
     }
 }
-//if the current index is less than lenght then we add the next button otherwise we display start quix button?//
+//if the current index is less than lenght then we add the next button otherwise we display start quiz button?//
 nextButton.addEventListener("click", ()=>{
     if(currentQuestionIndex < questions.length){
-        handleNextButton();
+        manageNextButton();
     }else{
         startQuiz();
     }
