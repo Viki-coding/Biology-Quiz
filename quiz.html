@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon files -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+
+    <!-- Connect to CSS file -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Biology Quiz</title>
+</head>
+
+<body>
+    <!-- Login Area -->
+    <div class="loginarea">
+        <h1></h1>
+        <h1>Biology Quiz</h1>
+        <div id="instructions">
+            <br>
+            <h2 id="rules">Instructions</h2>
+            <br>
+            <ol>
+                <li> A question with four possible answers will be displayed.</li>
+                <li> Select an answer.</li>
+                <li> Correct answer will be displayed in green, incorrect in red.</li>
+                <li> Enter your name in box below and click START. </li>
+            </ol>
+        </div>
+        <input type="text" id="username" name="name" aria-placeholder="Enter name here" maxlength="10">
+       <input type="button" id="enter-btn" class="btn" value="ENTER">
+       <button id="start-btn" class="btn" value=>PRESS START</button>
+
+    </div>
+
+     <!-- Quiz Area -->
+     <div id="quizbox">
+        <h1>Biology Quiz</h1>
+        <div id="biologyquiz">
+            <h2 id="questions">Question 1</h2>
+            <div id="ans-button">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <button id="next-btn">NEXT</button>
+    </div>
+
+   
+
+    <!-- Connect to JS file -->
+    <script src="assets/js/questions.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

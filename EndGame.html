@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon files -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+
+    <!-- Connect to CSS file -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Biology Quiz</title>
+</head>
+
+<body>
+    <!-- Endgame Area -->
+    <div class="endgame">
+        <h1>Biology Quiz</h1>
+        <br>
+        <div class="results">
+            <!-- Flip Card to reveal resuls code inspired by W3 schools-->
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="/assets/images/green-results.jpg" alt="Reveal Results using fortnite color pallet of green, white and blue" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <h1 id="username">USERNAME</h1> 
+                  <h2>You scored:</h2> 
+                  <h2>10/10</h2>
+                </div>
+              </div>
+            </div>
+        </div>
+        <br>
+        <button id="startagain-btn" class="btn">PLAY AGAIN</button>
+        <button id="home-btn" class="btn">HOME</button>
+    </div>
+
+
+    <!-- Connect to JS file -->
+    <script src="assets/js/questions.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
