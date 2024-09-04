@@ -78,6 +78,18 @@ body {
     font-weight: 600;
 }
 
+.headerinfo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.scoreboard {
+
+}
+
+.timeboard {
+
+}
 /* add styling of the classes from js file */
 /* targeting a class of a class inspired by W3 schools */
 
