@@ -1,9 +1,23 @@
 
 //Get username from input field//
 function captureUserName(){
-    document.getElementById("name").innerText = document.getElementById("name").value;
+    document.getElementById("username").innerText = document.getElementById("username").value;
 }
 
+function timer(){
+    let totalTime = 250;
+    let min = 0;
+    let sec = 0;
+    let counter = 0;
+
+    let timer = setInterval(function(){
+        counter++;
+        min = Math.floor((totalTime - counter)/60);
+        sec = totalTime - min * 60 - counter;
+
+        $(".timeBoard span").text(min + ":" + sec);
+    })
+}
 
 //Add variables to questions and answers and next button in quiz area//
 let questionElement = document.getElementById("questions");
@@ -11,6 +25,7 @@ let answerButtons = document.getElementById("ans-button");
 let nextButton = document.getElementById("next-btn");
 
 //Question number and score changing once we start quiz - create variables to restore question index and score//
+let questionCounter = 0;
 let currentQuestionIndex = 0;
 let score = 0;
 
@@ -30,8 +45,9 @@ function startQuiz() {
 //Reset to hide the Ansewer 1, 2, 3, 4 then //
 function displayQuestion() {
     reset();
-    let currentQuestion = questions[currentQuestionIndex];
+    let currentQuestion = questions[Math.floor(Math.random()* questions.length)];
     let questionNum = currentQuestionIndex + 1;
+    
     questionElement.innerHTML = questionNum + ". " + currentQuestion.question;
 
 
