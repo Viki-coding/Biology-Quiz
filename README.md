@@ -183,6 +183,7 @@ https://www.youtube.com/watch?v=ml2N3APdoB0 How to revert to previous commits to
 https://www.youtube.com/watch?v=JeXqaKeJSRI How to accept JavaScript USER INPUT in 5 minutes - Bro Code
 https://www.youtube.com/watch?v=JeXqaKeJSRI Local Storage Explained in 10 min - ProMaker Dev
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_card Inspired by W3 schools to create flip card to reveal results
+https://www.youtube.com/watch?v=QU6z69P5BrU interpreted how to the quiz choose random questions from the list. 
 
 Image by Gerd Altmann from Pixabay Results image 
 

@@ -40,7 +40,7 @@ function startQuiz() {
 }
 
 //call on the current questions from the question array//
-// set the question number incrementally//
+// display question in random order so if user plays again not predicable//
 //display the various questions using the question element that we have id in the html//
 //Reset to hide the Ansewer 1, 2, 3, 4 then //
 function displayQuestion() {
@@ -62,6 +62,7 @@ function displayQuestion() {
             button.dataset.correct = answers.correct;
         }
         button.addEventListener("click", selectAnswer);
+        questionCounter++ 
     });
 
 }
