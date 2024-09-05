@@ -4,20 +4,31 @@ function captureUserName(){
     document.getElementById("username").innerText = document.getElementById("username").value;
 }
 
-function timer(){
-    let totalTime = 250;
-    let min = 0;
-    let sec = 0;
-    let counter = 0;
+// function timer(){
+//     let totalTime = 250;
+//     let min = 0;
+//     let sec = 0;
+//     let counter = 0;
 
-    let timer = setInterval(function(){
-        counter++;
-        min = Math.floor((totalTime - counter)/60);
-        sec = totalTime - min * 60 - counter;
+//     let timer = setInterval(function(){
+//         counter++;
+//         min = Math.floor((totalTime - counter)/60);
+//         sec = totalTime - min * 60 - counter;
+//         time-BeforeUnloadEvent.Element.innnerHTML = `You scored ${score} out of ${question.length}!`;
+//         $("time-board").text(min + ":" + sec);
+//     })
+// }
 
-        $("time-board".text(min + ":" + sec));
-    })
-}
+let count = 60;
+const timer = setInterval(function() {
+  count--;
+  console.log(count);
+  document.getElementsByClassName("time-board").innerHTML = "s ";
+  if (count === 0) {
+    clearInterval(timer);
+    console.log("Time's up!");
+  }
+}, 1000);
 
 //Add variables to questions and answers and next button in quiz area//
 let questionElement = document.getElementById("questions");
