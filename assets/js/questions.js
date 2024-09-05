@@ -19,26 +19,7 @@ let questions = [{
         },
     ]
 },
-{
-    question: "Which disease cannot be treated with anitbiotics?",
-    answers: [{
-            text: "Tuberculosis",
-            correct: false
-        },
-        {
-            text: "Measles",
-            correct: true
-        },
-        {
-            text: "Gonorrhoea",
-            correct: false
-        },
-        {
-            text: "Salmonella",
-            correct: true
-        },
-    ]
-},
+
 {
     question: "Which of the following describes coal, oil and natural gas?",
     answers: [{

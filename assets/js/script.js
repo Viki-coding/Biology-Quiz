@@ -15,7 +15,7 @@ function timer(){
         min = Math.floor((totalTime - counter)/60);
         sec = totalTime - min * 60 - counter;
 
-        $(".timeBoard span").text(min + ":" + sec);
+        $("time-board".text(min + ":" + sec));
     })
 }
 
