@@ -1,8 +1,10 @@
 
 //Get username from input field//
 function captureUserName(){
-    document.getElementById("username").innerText = document.getElementById("username").value;
+    document.getElementByClass("username").innerText = document.getElementByClass("username").value;
+    console.log(username)
 }
+
 
 // function timer(){
 //     let totalTime = 250;
@@ -28,7 +30,11 @@ const timer = setInterval(function() {
     clearInterval(timer);
     console.log("Time's up!");
   }
+
+  timer.innerHTML = timer + "time left ";
+  
 }, 1000);
+
 
 //Add variables to questions and answers and next button in quiz area//
 let questionElement = document.getElementById("questions");
