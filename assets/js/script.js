@@ -1,9 +1,16 @@
 
 //Get username from input field//
-function captureUserName(){
-    document.getElementByClass("username").innerText = document.getElementByClass("username").value;
-    console.log(username)
+const button = document.getElementById("start-btn");
+const username = document.getElementById("username");
+const name = document.getElementById("name");
+
+function displayName(inputName){
+    name.innerText = inputName;
 }
+
+button.addEventListener('click', () => {
+    displayName(userName.value)
+})
 
 
 // function timer(){
@@ -32,7 +39,7 @@ const timer = setInterval(function() {
   }
 
   timer.innerHTML = timer + "time left ";
-  
+
 }, 1000);
 
 
