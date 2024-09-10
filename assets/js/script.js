@@ -1,33 +1,40 @@
 
 //Get username from input field//
-const button = document.getElementById("start-btn");
-const username = document.getElementById("username");
-const name = document.getElementById("name");
+//Interpreteted using youtube video "Get Textbox Value and Display on Page | Javascript"
+const startButton = document.getElementById("start-btn");
+const userName = document.getElementById("input-name");
+const input = document.getElementById("name");
 
 function displayName(inputName){
-    name.innerText = inputName;
+    inputName.innerText = inputName;
 }
+console.log(userName.value);
 
-button.addEventListener('click', () => {
+startButton.addEventListener('click', () => {
     displayName(userName.value)
 })
 
+//Hide/Show quiz areas
+let div = document.getElementById("loginarea")
+let display = 0;
 
-// function timer(){
-//     let totalTime = 250;
-//     let min = 0;
-//     let sec = 0;
-//     let counter = 0;
+function hideShow()
+{
+    if(display == 1)
+    {
+        div.style.display = 'block';
+        display = 0;
+    }
+    else
+    {
+        div.style.display = 'none';
+        display = 1;
+    }
+}
+   
 
-//     let timer = setInterval(function(){
-//         counter++;
-//         min = Math.floor((totalTime - counter)/60);
-//         sec = totalTime - min * 60 - counter;
-//         time-BeforeUnloadEvent.Element.innnerHTML = `You scored ${score} out of ${question.length}!`;
-//         $("time-board").text(min + ":" + sec);
-//     })
-// }
 
+//Create 1 minute countdown timer//
 let count = 60;
 const timer = setInterval(function() {
   count--;
