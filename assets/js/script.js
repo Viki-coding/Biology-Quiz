@@ -15,10 +15,25 @@ function displayName(inputName){
     input.innerText = inputName;
 }
 
+const form = document.getElementById("userinfo");
+const nextButton = document.querySelector(next-btn);
+let username = '';
 
-document.getElementsByClassName("loginarea")
-document.getElementsByid("quizbox")
-document.getElementsByClassName("endgame")
+function showHideDivs(id1, id2) {
+    document.getElementById(loginarea).style.display = 'none';
+    document.getElementById(quizbox).style.display = 'block';
+
+    document.querySelector(`#${loginarea}.username`).innerText = username;
+}
+form.addEventListener("submit", event => {
+    event.preventDefault();
+    username = event.target.username.value;
+    showHideDivs('loginarea', 'quizbox')
+});
+
+// document.getElementsByClassName("loginarea")
+// document.getElementsByid("quizbox")
+// document.getElementsByClassName("endgame")
 
 //Display quiz area once you click start//
 
