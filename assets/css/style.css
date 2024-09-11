@@ -57,6 +57,9 @@ body {
     color: white;
     width: 90%;
     max-width: 600px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0.9);
 }
 
 
