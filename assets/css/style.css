@@ -22,6 +22,7 @@ body {
     color: white;
     width: 90%;
     max-width: 600px;
+    display: block;
 }
 
 .loginarea > h1 {
@@ -29,7 +30,7 @@ body {
     font-size: 50px;
     font-weight: 500;
     padding-bottom: 20px;
-    border-bottom: #319236 6px solid;
+    border-bottom: #319236 6px solid;;
 }
 
 #instructions > ol li{
@@ -49,6 +50,13 @@ body {
 }
 
 /* QUIZ AREA STYLING */
+/* .quibox.active{
+    z-index: 5;
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+} */
+
 #quizbox {
     background: #4c51f7;
     padding: 30px;
@@ -57,9 +65,7 @@ body {
     color: white;
     width: 90%;
     max-width: 600px;
-    opacity: 0;
-    pointer-events: none;
-    transform: translate(-50%, -50%) scale(0.9);
+    display: none;
 }
 
 
@@ -121,6 +127,7 @@ body {
     height: 650px;
     max-width: 600px;
     justify-content: space-between;
+    display: none;
 }
 
 .endgame > h1 {

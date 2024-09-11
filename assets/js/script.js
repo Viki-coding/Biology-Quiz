@@ -16,6 +16,41 @@ function displayName(inputName){
 }
 
 
+document.getElementsByClassName("loginarea")
+document.getElementsByid("quizbox")
+document.getElementsByClassName("endgame")
+
+//Display quiz area once you click start//
+
+// startButton.addEventListener("click", ()=>{
+//     quizbox.style.display = "block";
+// }else{
+//     manageNextButton();
+// })
+
+
+    // if(currentQuestionIndex < questions.length){
+    //     manageNextButton();
+    // }else{
+    //     startQuiz();
+    // }
+    
+
+
+//Required elements for display//
+// let startBtn = document.querySelector("#start-btn button");
+// const loginarea = document.querySelector(".loginarea");
+// const quizbox = document.querySelector(".quizbox");
+// const endgame = document.querySelector(".endgame");
+
+//If start quiz button clicked then the quiz area will be displayed event//
+// start-Btn.onclick = ()=>{
+//     quizbox.classList.add("active");
+//     loginarea.classList.remove("active");
+// }
+
+//If 
+
 //Hide/Show quiz areas//
 // const div = document.getElementById("loginarea");
 // let display = 0;
@@ -35,11 +70,11 @@ function displayName(inputName){
 // }
    
 
-let loginarea = document.querySelector(".loginarea");
-let quizbox = document.querySelector(".quizarea");
-let endgame = document.querySelector(".endgame");
+// let loginarea = document.querySelector(".loginarea");
+// let quizbox = document.querySelector(".quizarea");
+// let endgame = document.querySelector(".endgame");
 
-loginarea.style.display = "block";
+// loginarea.style.display = "block";
 
 
 
