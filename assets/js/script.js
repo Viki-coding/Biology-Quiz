@@ -2,36 +2,46 @@
 //Get username from input field//
 //Interpreteted using youtube video "Get Textbox Value and Display on Page | Javascript"
 const startButton = document.getElementById("start-btn");
-const userName = document.getElementById("input-name");
-const input = document.getElementById("name");
+
+startButton.addEventListener('click', (event) => {
+    event.preventDefault();
+
+    const userName = document.getElementById("input-name");
+    displayName(userName.value);
+});
 
 function displayName(inputName){
-    inputName.innerText = inputName;
+    const input = document.getElementById("name");
+    input.innerText = inputName;
 }
-console.log(userName.value);
 
-startButton.addEventListener('click', () => {
-    displayName(userName.value)
-})
 
-//Hide/Show quiz areas
-let div = document.getElementById("loginarea")
-let display = 0;
+//Hide/Show quiz areas//
+// const div = document.getElementById("loginarea");
+// let display = 0;
 
-function hideShow()
-{
-    if(display == 1)
-    {
-        div.style.display = 'block';
-        display = 0;
-    }
-    else
-    {
-        div.style.display = 'none';
-        display = 1;
-    }
-}
+// function hideShow()
+// {
+//     if(display == 1)
+//     {
+//         div.style.display = 'block';
+//         display = 0;
+//     }
+//     else
+//     {
+//         div.style.display = 'none';
+//         display = 1;
+//     }
+// }
    
+
+let loginarea = document.querySelector(".loginarea");
+let quizbox = document.querySelector(".quizarea");
+let endgame = document.querySelector(".endgame");
+
+loginarea.style.display = "block";
+
+
 
 
 //Create 1 minute countdown timer//
